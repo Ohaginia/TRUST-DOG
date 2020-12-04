@@ -56,14 +56,12 @@ TRUST DOGに使うアクチュエータには自作の遊星歯車減速機を�
 インピーダンス制御と逆運動学を組み合わせることで、安定した歩行が可能になるという仮説をもとに開発を勧めていきます。
 
 
-# 作成者
-
-作成情報を列挙する
+## 作成者
 
 * 作成者：上原昇馬
 * 所属：TRUST SMITH 株式会社
 * E-mail：Hamashoma@gmail.com
 
-# ライセンス
+## ライセンス
 
-"TRUST DOG" プロジェクトは [MIT license](https://en.wikipedia.org/wiki/MIT_License)とします。
+"TRUST DOG" プロジェクトは [MIT license](https://en.wikipedia.org/wiki/MIT_License)である。
