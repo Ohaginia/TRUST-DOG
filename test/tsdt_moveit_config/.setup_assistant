@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: tsdt_description
+    relative_path: urdf/tsdt.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/tsdt.srdf
+  CONFIG:
+    author_name: shoma
+    author_email: hamashoma@gmail.com
+    generated_timestamp: 1606488006
