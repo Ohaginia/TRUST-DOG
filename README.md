@@ -1,11 +1,11 @@
 # TRUST-DOG PROJECT
-
+ <img width="" alt="trust_dog" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/trust_dog1.PNG?raw=true"> 
 ## 0.プロジェクト概要
 ドローン用ブラシレスモータを使って、Spot miniのような動的な制御ができる四足歩行ロボットを作るというプロジェクト。
 
 ## 1.ハードウェア
 ### 1.1. ハードウェア概要
- <img width="600" alt="trust_dog" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/trust_dog1.PNG?raw=true">    
+
 一脚につき3軸のアクチュエータを有する、全12軸四脚ロボット。  
 構成自体はSpot miniやLaikagoと同じ。  
 縦464[mm] × 横337[mm] × 高さ334[mm] (上図姿勢時）
@@ -23,6 +23,7 @@ TRUST DOGに使うアクチュエータは自作の遊星歯車減速機と一�
 ギア部とシャフト部のみ金属加工品で他は３Dプリント品とコスト面や柔軟性も意識した設計となっております。
 
 ### 1.3. 脚
+<img width="" alt="acuator2" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/leg_tsd.PNG?raw=true">    
 脚は第1軸、第2軸はアクチュエータと直接接続されており、第3軸はベルト伝達機構となっております。  
 ベルト伝達機構のメリットはバックラッシを軽減できるなどがあります。  
 また、現時点でのベルト伝達機構の減速比は１：１ですが、トルクが必要となったとき簡単に設計が変更できる柔軟性も大きなメリットです。  
