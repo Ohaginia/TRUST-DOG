@@ -1,5 +1,6 @@
 # TRUST-DOG PROJECT
-<img width="600" alt="trust_dog" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/trust_dog1.PNG?raw=true">
+ <img width="600" alt="trust_dog" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/trust_dog1.PNG?raw=true">  
+
 ## 0.プロジェクト概要
 ドローン用ブラシレスモータを使って、Spot miniのような動的な制御ができる四足歩行ロボットを作るというプロジェクト。
 
