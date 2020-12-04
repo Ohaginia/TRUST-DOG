@@ -11,11 +11,13 @@
 縦464[mm] × 横337[mm] × 高さ334[mm] (上図姿勢時）
 
 ### 1.2. アクチュエータ
- <img width="200" alt="tarot4008" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/tarot4008.jpg?raw=true"> 　<img width="200" alt="ODrive" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/odrive.jpg?raw=true">  
- <img width="200" alt=AS5047P" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/AS5047P.jpeg?raw=true">  　　
+ <img width="200" alt="tarot4008" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/tarot4008.jpg?raw=true"> 　<img width="200" alt="ODrive" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/odrive.jpg?raw=true">  <img width="180" alt="AS5047P" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/AS5047P.jpeg?raw=true">  
+
 + モータ：[tarot4008　330kv](https://www.aliexpress.com/i/32697306634.html)
 + ドライバ：[Odrive v3.6](https://odriverobotics.com/)  
-+ エンコーダ：[AS5047P](https://www.mouser.jp/ProductDetail/ams/AS5047P-TS_EK_AB?qs=Rt6VE0PE%2FOfJKFTMKo%252BL0Q%3D%3D)   　　
++ エンコーダ：[AS5047P](https://www.mouser.jp/ProductDetail/ams/AS5047P-TS_EK_AB?qs=Rt6VE0PE%2FOfJKFTMKo%252BL0Q%3D%3D)  
+
+<img width="300" alt="actuator1" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/actuator_tsd.PNG?raw=true">   <img width="300" alt="acuator2" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/actuator2_tsd.PNG?raw=true">  
 TRUST DOGに使うアクチュエータは自作の遊星歯車減速機と一体型となっております。  
 遊星歯車減速機は減速機が1/8で非常にコンパクトな設計となっております。  
 ギア部とシャフト部のみ金属加工品で他は３Dプリント品とコスト面や柔軟性も意識した設計となっております。
