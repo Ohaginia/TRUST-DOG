@@ -1,19 +1,21 @@
 # TRUST-DOG PROJECT
- <img width="600" alt="trust_dog" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/trust_dog1.PNG?raw=true">  
 
 ## 0.プロジェクト概要
 ドローン用ブラシレスモータを使って、Spot miniのような動的な制御ができる四足歩行ロボットを作るというプロジェクト。
 
 ## 1.ハードウェア
 ### 1.1. ハードウェア概要
+ <img width="600" alt="trust_dog" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/trust_dog1.PNG?raw=true">    
 一脚につき3軸のアクチュエータを有する、全12軸四脚ロボット。  
 構成自体はSpot miniやLaikagoと同じ。  
 縦464[mm] × 横337[mm] × 高さ334[mm] (上図姿勢時）
 
 ### 1.2. アクチュエータ
+ <img width="200" alt="tarot4008" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/tarot4008.jpg?raw=true"> 
+  <img width="200" alt="ODrive" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/odrive.jpg?raw=true"> 
 + モータ：tarot 4008　330kv 
-+ ドライバ：Odrive v4.6 
-
++ ドライバ：Odrive v3.6 
++ エンコーダ：AS5047P
 TRUST DOGに使うアクチュエータは自作の遊星歯車減速機と一体型となっております。  
 遊星歯車減速機は減速機が1/8で非常にコンパクトな設計となっております。  
 ギア部とシャフト部のみ金属加工品で他は３Dプリント品とコスト面や柔軟性も意識した設計となっております。
