@@ -1,8 +1,8 @@
 # TRUST-DOG PROJECT
- <img width="" alt="trust_dog" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/trust_dog1.PNG?raw=true"> 
+ <img width="" alt="trust_dog" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/trust_dog1.PNG?raw=true">     
+ 
 ## 0.プロジェクト概要
-ドローン用ブラシレスモータを使って、Spot miniのような動的な制御ができる四足歩行ロボットを作るというプロジェクト。
-
+ドローン用ブラシレスモータを使って、Spot miniのような動的な制御ができる四足歩行ロボットを作るというプロジェクト。 
 ## 1.ハードウェア
 ### 1.1. ハードウェア概要
 
@@ -18,15 +18,16 @@
 + エンコーダ：[AS5047P](https://www.mouser.jp/ProductDetail/ams/AS5047P-TS_EK_AB?qs=Rt6VE0PE%2FOfJKFTMKo%252BL0Q%3D%3D)  
 
 <img width="300" alt="actuator1" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/actuator_tsd.PNG?raw=true">   <img width="300" alt="acuator2" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/actuator2_tsd.PNG?raw=true">  
-TRUST DOGに使うアクチュエータは自作の遊星歯車減速機と一体型となっております。  
-遊星歯車減速機は減速機が1/8で非常にコンパクトな設計となっております。  
-ギア部とシャフト部のみ金属加工品で他は３Dプリント品とコスト面や柔軟性も意識した設計となっております。
+TRUST DOGに使うアクチュエータには自作の遊星歯車減速機を使用しております。  
+減速比は8/1でモータと一体型になっております。　　
+また、ギア部とシャフト部のみ金属加工品で他は３Dプリント品とコスト面や柔軟性も意識した設計となっております。
 
 ### 1.3. 脚
 <img width="" alt="acuator2" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/leg_tsd.PNG?raw=true">    
 脚は第1軸、第2軸はアクチュエータと直接接続されており、第3軸はベルト伝達機構となっております。  
 ベルト伝達機構のメリットはバックラッシを軽減できるなどがあります。  
 また、現時点でのベルト伝達機構の減速比は１：１ですが、トルクが必要となったとき簡単に設計が変更できる柔軟性も大きなメリットです。  
+<img width="300" alt="pulley" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/pulley_tsd.PNG?raw=true">  
 プーリーは３Dプリント品なので非常に低コストです。
 
 ### 1.4 テストスタンド
