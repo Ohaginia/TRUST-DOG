@@ -11,8 +11,7 @@
 縦464[mm] × 横337[mm] × 高さ334[mm] (上図姿勢時）
 
 ### 1.2. アクチュエータ
- <img width="200" alt="tarot4008" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/tarot4008.jpg?raw=true"> 
-  <img width="200" alt="ODrive" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/odrive.jpg?raw=true"> 
+ <img width="200" alt="tarot4008" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/tarot4008.jpg?raw=true"> 　<img width="200" alt="ODrive" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/odrive.jpg?raw=true"> 　　
 + モータ：tarot 4008　330kv 
 + ドライバ：Odrive v3.6 
 + エンコーダ：AS5047P
