@@ -59,7 +59,7 @@ TRUST DOGに使うアクチュエータには自作の遊星歯車減速機を�
 ## 作成者
 
 * 作成者：上原昇馬
-* 所属：TRUST SMITH 株式会社
+* 所属：TRUST SMITH 株式会社/ 沖縄工業高等専門学校
 * E-mail：Hamashoma@gmail.com
 
 ## ライセンス
