@@ -19,7 +19,7 @@
 
 <img width="300" alt="actuator1" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/actuator_tsd.PNG?raw=true">   <img width="300" alt="acuator2" src="https://github.com/Ohaginia/TRUST-DOG/blob/master/docs/images/actuator2_tsd.PNG?raw=true">  
 TRUST DOGに使うアクチュエータには自作の遊星歯車減速機を使用しております。  
-減速比は8/1でモータと一体型になっております。　　
+減速比は8/1でモータと一体型になっております。  
 また、ギア部とシャフト部のみ金属加工品で他は３Dプリント品とコスト面や柔軟性も意識した設計となっております。
 
 ### 1.3. 脚
