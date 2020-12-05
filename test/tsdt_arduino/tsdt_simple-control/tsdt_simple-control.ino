@@ -20,8 +20,8 @@ template<>        inline Print& operator <<(Print &obj, float arg) { obj.print(a
 #include <ESPmDNS.h>
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
-const char* ssid = "ohaginia";
-const char* password = "Shoma0218";
+const char* ssid = "*****";
+const char* password = "*****";
 IPAddress server(192,168,2,4); //ip adress(sh command "ip a")
 const uint16_t serverPort = 11411; 
 WiFiClient client;

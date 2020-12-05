@@ -17,8 +17,8 @@ ODriveTool odrive(Serial2); //odrive object
 #include <ESPmDNS.h>
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
-const char* ssid = "ohaginia";
-const char* password = "Shoma0218";
+const char* ssid = "*****";
+const char* password = "*****";
 /********************************************************/  
 
 // the setup function runs once when you press reset or power the board

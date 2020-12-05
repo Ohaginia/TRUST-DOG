@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/shoma/arm_ws/devel/include/**",
+                "/home/shoma/trust_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/shoma/arm_ws/src/ros_lecture/adv_lecture/include/**",
+                "/home/shoma/arm_ws/src/arm_description/include/**",
+                "/home/shoma/arm_ws/src/keyboard_driver/include/**",
+                "/home/shoma/trust_ws/src/motor_project/motor_control/include/**",
+                "/home/shoma/trust_ws/src/motor_project/motor_description/include/**",
+                "/home/shoma/arm_ws/src/rosserial/rosserial_server/include/**",
+                "/home/shoma/arm_ws/src/rosserial/rosserial_test/include/**",
+                "/home/shoma/trust_ws/src/trust_dog_project/test/tsdt_control/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
