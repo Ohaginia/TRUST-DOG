@@ -1,0 +1,6 @@
+<launch>
+    <arg name="model" default="$(find tsdt_description)/urdf/tsdt.urdf.xacro"/>
+
+    <node name="marker_test" pkg="tsdt_control" type="marker_test"/>
+  	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find tsdt_control)/config/marker_test.rviz" required="true" />
+</launch>

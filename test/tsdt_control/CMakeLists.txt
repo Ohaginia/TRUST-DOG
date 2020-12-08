@@ -11,8 +11,11 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  tf
+  tf2
+  tf2_ros
+  urdf
 )
-
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
@@ -135,6 +138,12 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/tsdt_control_node.cpp)
 add_executable(ik_controller src/ik_controller.cpp)
+add_executable(marker_test src/marker_test.cpp)
+add_executable(leg_tftest src/leg_tftest.cpp)
+add_executable(ik_area src/ik_area.cpp)
+add_executable(target_marker src/target_marker.cpp)
+add_executable(circle_target src/circle_target.cpp)
+
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -151,6 +160,11 @@ add_executable(ik_controller src/ik_controller.cpp)
 #   ${catkin_LIBRARIES}
 # )
 target_link_libraries(ik_controller  ${catkin_LIBRARIES})
+target_link_libraries(marker_test  ${catkin_LIBRARIES})
+target_link_libraries(leg_tftest  ${catkin_LIBRARIES})
+target_link_libraries(ik_area  ${catkin_LIBRARIES})
+target_link_libraries(target_marker  ${catkin_LIBRARIES})
+target_link_libraries(circle_target  ${catkin_LIBRARIES})
 
 #############
 ## Install ##

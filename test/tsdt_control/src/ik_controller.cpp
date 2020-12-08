@@ -7,7 +7,7 @@
 #include <math.h>
 #define _USE_MATH_DEFINE
 
-float y=0, z=0; //target point
+float x=0, y=0, z=0; //target point
 float angle1=0,angle2=0; //set angle
 float C1=0, C2=0; //cos1, cos2
 float S1=0, S2=0; //sin1, sin2
@@ -16,8 +16,9 @@ sensor_msgs::JointState joint_state;
 
 void ik_callback(const std_msgs::Float32MultiArray& target_point)
 {
-    y=target_point.data[0]; // target y
-    z=target_point.data[1]; //target z
+    x=target_point.data[0]; // target y
+    y=target_point.data[1]; //target z
+    z=target_point.data[2]; //target z
 
     /****Movable area evaluation**********/
     if(!(pow((L1-L2),2.0)<=(pow(z,2.0)+pow(y,2.0))&&(pow(z,2.0)+pow(y,2.0))<=pow((L1+L2),2.0))){
@@ -36,8 +37,8 @@ void ik_callback(const std_msgs::Float32MultiArray& target_point)
     S1=sqrt(1-pow(C2,2.0));
     angle1=atan2(y,z)-atan2(S1,C1);
 
-    joint_state.position[0] = -angle1;
-    joint_state.position[1] = -angle2;
+    joint_state.position[1] = -angle1;
+    joint_state.position[2] = -angle2;
     
 }
 
@@ -47,16 +48,19 @@ int main(int argc, char** argv)
     ros::NodeHandle nh;
     ros::Publisher joint_pub = nh.advertise<sensor_msgs::JointState>("joint_states", 10);
     ros::Subscriber target_sub = nh.subscribe("target_point", 10, ik_callback);
-    joint_state.name.resize(2);
-    joint_state.name[0] = "joint1";
-    joint_state.name[1] = "joint2";
-    joint_state.position.resize(2);
+    joint_state.name.resize(3);
+    joint_state.name[0] = "joint0";
+    joint_state.name[1] = "joint1";
+    joint_state.name[2] = "joint2";
+
+    joint_state.position.resize(3);
     
     ros::Rate loop_rate(10);
 
   while (ros::ok())
   {
         joint_state.header.stamp = ros::Time::now();
+        joint_state.position[0]= 0;
         joint_pub.publish(joint_state);
         ros::spinOnce();
         loop_rate.sleep();

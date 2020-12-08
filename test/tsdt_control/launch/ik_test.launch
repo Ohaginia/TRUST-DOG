@@ -2,6 +2,9 @@
     <arg name="model" default="$(find tsdt_description)/urdf/tsdt.urdf.xacro"/>
 
     <node name="ik_controller" pkg="tsdt_control" type="ik_controller"/>
+    <node name="ik_area" pkg="tsdt_control" type="ik_area"/>
+    <node name="circle_target" pkg="tsdt_control" type="circle_target"/>
+    <node name="target_marker" pkg="tsdt_control" type="target_marker"/>
     <param name="robot_description" command="$(find xacro)/xacro $(arg model) " />
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
   	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find tsdt_description)/config/default.rviz" required="true" />
